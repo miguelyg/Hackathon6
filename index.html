@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="mh-100">
+				<div class="vh-100">
+					<section class="row mh-100 h-75 bg-primary">
+						<div class="mh-100">
+							<div class="row h-100 position-relative">
+								<nav
+									class="
+										navbar navbar-expand-lg
+										sticky-top
+										bg-transparent
+										position-absolute
+									"
+								>
+									<div class="collapse navbar-collapse justify-content-center">
+										<ul
+											class="
+												nav
+												flex-column flex-sm-row
+												justify-content-center
+												align-items-center
+												sticky-top
+											"
+										>
+											<li class="nav-item text-center">
+												<a
+													class="
+														nav-link
+														rounded-pill
+														btn-outline-warning
+														text-dark
+													"
+													href="#"
+													>Work</a
+												>
+											</li>
+											<li class="nav-item text-center">
+												<a
+													class="
+														nav-link
+														rounded-pill
+														btn-outline-warning
+														text-dark
+													"
+													href="#"
+													>Services</a
+												>
+											</li>
+											<li class="nav-item text-center">
+												<a
+													class="
+														nav-link
+														rounded-pill
+														btn-outline-warning
+														text-dark
+													"
+													href="#"
+													>About</a
+												>
+											</li>
+											<li class="nav-item text-center">
+												<a class="nav-link text-dark" href="#"
+													><img
+														src="data:image/png;base64,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"
+														alt=""
+														class="img-fluid"
+														width="50px"
+												/></a>
+											</li>
+											<li class="nav-item text-center">
+												<a
+													class="
+														nav-link
+														rounded-pill
+														btn-outline-warning
+														text-dark
+													"
+													href="#"
+													>Blog</a
+												>
+											</li>
+											<li class="nav-item text-center">
+												<a
+													class="
+														nav-link
+														rounded-pill
+														btn-outline-warning
+														text-dark
+													"
+													href="#"
+													>Free Discovery Call</a
+												>
+											</li>
+										</ul>
+									</div>
+								</nav>
+								<div class="col-12 col-md-6 bg-light d-flex h-100 text-center">
+									<div class="row justify-content-center align-self-center">
+										<p class="pb-2">BYE BYE</p>
+										<p class="display-3">LET'S LEVEL</p>
+										<p class="display-3">UP YOUR LOOK.</p>
+										<p class="display-3">LOOK.</p>
+										<p class="w-75 pb-3">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											Magni voluptatibus similique quae vero voluptates,
+											officiis ad molestias modi quisquam dolores incidunt
+											impedit est adipisci ea velit sapiente animi, repellendus
+											quod.
+										</p>
+										<button class="btn btn-outline-secondary w-50">
+											TELL ME ABOUT YOUR PROJECT
+										</button>
+									</div>
+								</div>
+								<div
+									class="col-12 col-md-6 bg-danger h-100"
+									style="
+										background-image: url('https://wallpaperaccess.com/full/1657789.jpg');
+										background-size: cover;
+									"
+								></div>
+							</div>
+						</div>
+					</section>
+					<section class="row">
+						<div class="mh-100">
+							<div class="row h-auto">
+								<div class="col-12 h-25 bg-warning d-flex text-center pt-5">
+									<div class="row justify-content-center align-self-center">
+										<p class="pb-2">WHAT TO EXPECT</p>
+										<p class="display-3">WORKING WITH ME IS</p>
+										<p class="display-3">SIMPLE.</p>
+										<p class="w-75 pb-3">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											Magni voluptatibus similique quae vero voluptates,
+											officiis ad molestias modi quisquam dolores incidunt
+											impedit est adipisci ea velit sapiente animi, repellendus
+											quod.
+										</p>
+										<button class="btn btn-outline-secondary w-50">
+											TELL ME ABOUT YOUR PROJECT
+										</button>
+									</div>
+								</div>
+								<div class="col-12 h-50 bg-warning d-flex text-center pt-5">
+									<div class="row">
+										<div class="col-12 bg-warning d-flex text-center">
+											<div class="row justify-content-center align-self-center">
+												<div class="col-md-3 col-lg-3">
+													<p class="display-3">01.</p>
+													<p class="pb-2">DISCOVERY</p>
+													<p class="w-100 pb-3">
+														Lorem ipsum dolor sit amet consectetur adipisicing
+														elit. Magni voluptatibus similique quae vero
+														voluptates, officiis ad molestias modi quisquam
+														dolores incidunt impedit est adipisci ea velit
+														sapiente animi, repellendus quod.
+													</p>
+												</div>
+												<div class="col-md-3 col-lg-3">
+													<p class="display-3">02.</p>
+													<p class="pb-2">DISCOVERY</p>
+													<p class="w-100 pb-3">
+														Lorem ipsum dolor sit amet consectetur adipisicing
+														elit. Magni voluptatibus similique quae vero
+														voluptates, officiis ad molestias modi quisquam
+														dolores incidunt impedit est adipisci ea velit
+														sapiente animi, repellendus quod.
+													</p>
+												</div>
+												<div class="col-12 col-sm-12 col-md-3 col-lg-3">
+													<p class="display-3">03.</p>
+													<p class="pb-2">DISCOVERY</p>
+													<p class="w-100 pb-3">
+														Lorem ipsum dolor sit amet consectetur adipisicing
+														elit. Magni voluptatibus similique quae vero
+														voluptates, officiis ad molestias modi quisquam
+														dolores incidunt impedit est adipisci ea velit
+														sapiente animi, repellendus quod.
+													</p>
+												</div>
+												<div class="col-12 col-sm-12 col-md-3 col-lg-3">
+													<p class="display-3">04.</p>
+													<p class="pb-2">DISCOVERY</p>
+													<p class="w-100 pb-3">
+														Lorem ipsum dolor sit amet consectetur adipisicing
+														elit. Magni voluptatibus similique quae vero
+														voluptates, officiis ad molestias modi quisquam
+														dolores incidunt impedit est adipisci ea velit
+														sapiente animi, repellendus quod.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 h-50 bg-warning text-center pt-5">
+									<div class="row">
+										<div class="col-12 bg-warning pb-5">
+											<div class="row justify-content-center">
+												<p class="display-5 w-100">WANT MORE DETAILS?</p>
+												<button class="btn btn-outline-secondary w-25">
+													VIEW MY INVESTMENT GUIDE
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="row h-100">
+						<div class="mh-100">
+							<div class="row h-100">
+								<div
+									class="col-12 col-md-6 bg-danger h-100"
+									style="
+										background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80');
+										background-size: cover;
+									"
+								></div>
+								<div class="col-12 col-md-6 bg-light d-flex h-100 text-center">
+									<div class="row justify-content-center align-self-center">
+										<p class="pb-2">THESE BRANDS ARE MY JAM</p>
+										<p class="display-3">CHECK</p>
+										<p class="display-3">OUT MY</p>
+										<p class="display-3">WORK.</p>
+										<p class="w-75 pb-3">
+											Lorem ipsum dolor sit amet consectetur adipisicing elit.
+											Magni voluptatibus similique quae vero voluptates,
+											officiis ad molestias modi quisquam dolores incidunt
+											impedit est adipisci ea velit sapiente animi, repellendus
+											quod.
+										</p>
+										<button class="btn btn-outline-secondary w-50">
+											VIEW MY INVESTMENT PROJECT
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
